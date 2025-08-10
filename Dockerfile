@@ -27,3 +27,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 
 # Run the application with memory limits
 CMD ["java", "-Xmx256m", "-Xms128m", "-jar", "target/ug-campus-navigator-1.0.0.jar"]
+# Updated for Docker build fix
