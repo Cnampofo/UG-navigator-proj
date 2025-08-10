@@ -5,12 +5,12 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy Maven wrapper and pom.xml
-COPY "Java Maps/mvnw" ./
-COPY "Java Maps/.mvn/" .mvn/
-COPY "Java Maps/pom.xml" ./
+COPY Java\ Maps/mvnw ./
+COPY Java\ Maps/.mvn/ .mvn/
+COPY Java\ Maps/pom.xml ./
 
 # Copy source code
-COPY "Java Maps/src/" src/
+COPY Java\ Maps/src/ src/
 
 # Make Maven wrapper executable
 RUN chmod +x mvnw
