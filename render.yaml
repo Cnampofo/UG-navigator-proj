@@ -3,7 +3,7 @@ services:
     name: ug-campus-navigator
     env: docker
     plan: free
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ../Dockerfile
     dockerContext: ./Java Maps
     healthCheckPath: /
     envVars:
