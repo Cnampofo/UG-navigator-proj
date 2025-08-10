@@ -1,10 +1,10 @@
-Java\ Maps/target/
-Java\ Maps/.git/
-Java\ Maps/README.md
-Java\ Maps/*.md
-Java\ Maps/run.bat
-Java\ Maps/run.sh
-Java\ Maps/railway.json
-Java\ Maps/render.yaml
-Java\ Maps/Procfile
-Java\ Maps/system.properties
+target/
+.git/
+README.md
+*.md
+run.bat
+run.sh
+railway.json
+render.yaml
+Procfile
+system.properties
